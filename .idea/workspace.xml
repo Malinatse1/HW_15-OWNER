@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde48782-8ca9-4abb-b323-a027f6922415" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/CalendarComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/components/RegistrationResultsModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationWithTestDataTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshot_188.png" afterDir="false" />
+    <list default="true" id="bde48782-8ca9-4abb-b323-a027f6922415" name="Changes" comment="Add new code">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/properties/SystemPropertiesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +20,11 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -58,6 +46,10 @@
       <recent name="C:\QA GURU\HW_Jenkins\src\test" />
       <recent name="C:\QA GURU\HW_Jenkins\src\test\resources" />
       <recent name="C:\QA GURU\HW_Jenkins\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.properties" />
+      <recent name="properties" />
     </key>
   </component>
   <component name="RunManager">
@@ -99,6 +91,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673509045181</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add new code">
+      <created>1673509947850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673509947850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add new code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new code" />
   </component>
 </project>
