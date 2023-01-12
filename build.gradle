@@ -56,6 +56,10 @@ task smoke_tests(type: Test) {
 task one_property_test(type: Test) {
     useJUnitPlatform {
         includeTags("one_property")
+    }
+}
+task hello_test(type: Test) {
+    useJUnitPlatform {
         includeTags("hello")
     }
 }
