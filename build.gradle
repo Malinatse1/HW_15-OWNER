@@ -64,6 +64,12 @@ task hello_test(type: Test) {
     }
 }
 
+task regress_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("regress")
+    }
+}
+
 help {
     doFirst {
         println ""

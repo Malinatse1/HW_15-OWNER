@@ -4,10 +4,7 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class RegistrationWithTestDataTests extends TestBase {
@@ -30,6 +27,7 @@ public class RegistrationWithTestDataTests extends TestBase {
 
 
     @Test
+    @Tag("regress")
     void fillFormTest() {
         String userName = "Nataly",
                 lastName = "Bochkova",
