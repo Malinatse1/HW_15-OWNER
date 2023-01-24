@@ -70,6 +70,12 @@ task regress_test(type: Test) {
     }
 }
 
+task simple_tests(type: Test) {
+    useJUnitPlatform {
+        includeTags("simple")
+    }
+}
+
 help {
     doFirst {
         println ""

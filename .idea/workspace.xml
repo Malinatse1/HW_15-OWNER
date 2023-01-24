@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde48782-8ca9-4abb-b323-a027f6922415" name="Changes" comment="Add new code">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+    <list default="true" id="bde48782-8ca9-4abb-b323-a027f6922415" name="Changes" comment="Build add">
+      <change afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/draft.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notifications/telegram.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +28,40 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HW_Jenkins" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HW_Jenkins" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HW_Jenkins" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="properties" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,13 +89,59 @@
       <recent name="C:\QA GURU\HW_Jenkins\src\test\resources" />
       <recent name="C:\QA GURU\HW_Jenkins\src\test\java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QA.quru\HW_12\src\test\java\tests\allureTest" />
+      <recent name="D:\QA.quru\HW_12\notifications" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests.properties" />
       <recent name="properties" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SimpleTest.successfulRegistrationTest">
-    <configuration name="SimpleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HW_12 [allureServe]">
+    <configuration name="HW_12 [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HW_12 [simple_tests]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="simple_tests" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="disabledTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -82,7 +154,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.SimpleTest&quot;" />
+            <option value="&quot;tests.allureTest.disabledTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -92,7 +164,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleTest.successfulRegistrationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="negativeTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -105,7 +177,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.SimpleTest.successfulRegistrationTest&quot;" />
+            <option value="&quot;tests.allureTest.negativeTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -115,7 +187,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SystemPropertiesTests.simpleProperty4Test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="positiveTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -126,32 +198,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":one_property_test" />
+            <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.properties.SystemPropertiesTests.simpleProperty4Test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SystemPropertiesTests.simpleProperty4Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":one_property_tests" />
-            <option value="--tests" />
-            <option value="&quot;tests.properties.SystemPropertiesTests.simpleProperty4Test&quot;" />
+            <option value="&quot;tests.allureTest.positiveTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -163,10 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SimpleTest.successfulRegistrationTest" />
-        <item itemvalue="Gradle.SystemPropertiesTests.simpleProperty4Test (1)" />
-        <item itemvalue="Gradle.SystemPropertiesTests.simpleProperty4Test" />
-        <item itemvalue="Gradle.SimpleTest" />
+        <item itemvalue="Gradle.HW_12 [allureServe]" />
+        <item itemvalue="Gradle.HW_12 [simple_tests]" />
+        <item itemvalue="Gradle.disabledTests" />
+        <item itemvalue="Gradle.positiveTests" />
+        <item itemvalue="Gradle.negativeTests" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673526407633</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add new code">
+      <created>1673598348726</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673598348727</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Build add">
+      <created>1673607985812</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673607985812</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +308,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add new code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new code" />
+    <MESSAGE value="Build add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build add" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
