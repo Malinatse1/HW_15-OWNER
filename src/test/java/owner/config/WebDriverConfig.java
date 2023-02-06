@@ -7,11 +7,11 @@ import org.aeonbits.owner.Config;
 })
 public interface WebDriverConfig extends Config {
 
-    @Key("urlBase")
+    @Key("BaseUrl")
     @DefaultValue("https://demoqa.com")
     String getBaseUrl();
 
-    @Key("browserName")
+    @Key("browser")
     @DefaultValue("CHROME")
     String getBrowserName();
 
@@ -23,7 +23,7 @@ public interface WebDriverConfig extends Config {
     @DefaultValue("1920x1080")
     String getBrowserSize();
 
-    @Key("urlRemote")
+    @Key("RemoteUrl")
     @DefaultValue("https://user1:1234@selenoid.autotests.cloud/wd/hub")
     String getRemoteUrl();
 

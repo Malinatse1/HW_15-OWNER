@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde48782-8ca9-4abb-b323-a027f6922415" name="Changes" comment="Build add">
+    <list default="true" id="bde48782-8ca9-4abb-b323-a027f6922415" name="Changes" comment="delete tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/allureTest/disabledTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/allureTest/negativeTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/allureTest/positiveTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675678375248</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="delete tests">
+      <created>1675678743070</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675678743070</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,7 +321,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add new code" />
     <MESSAGE value="Build add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build add" />
+    <MESSAGE value="delete tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
