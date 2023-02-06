@@ -6,8 +6,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 public class WebDriverProvider {
-    static WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
-    public static void setupDriverConfig(){
+    public void WebDriverConfig(WebDriverConfig config){
         Configuration.baseUrl = config.getBaseUrl();
         Configuration.browser = config.getBrowserName();
         Configuration.browserVersion = config.getBrowserVersion();
@@ -20,11 +19,5 @@ public class WebDriverProvider {
             capabilities.setCapability("enableVideo", true);
             Configuration.browserCapabilities = capabilities;
         }
-    }
-    public String getVideoUrl(){
-        return config.getVideoUrl();
-    }
-    public String getVideoFormat(){
-        return config.getVideoFormat();
     }
 }

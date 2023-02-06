@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/owner/config/WebDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/owner/config/WebDriverConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/owner/config/WebDriverProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/owner/config/WebDriverProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationWithTestDataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationWithTestDataTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,7 @@
       <recent name="properties" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationWithTestDataTests">
+  <component name="RunManager" selected="Gradle.RegistrationWithTestDataTests.fillFormTest">
     <configuration name="HW_12 [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,8 +216,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationWithTestDataTests" />
         <item itemvalue="Gradle.RegistrationWithTestDataTests.fillFormTest" />
+        <item itemvalue="Gradle.RegistrationWithTestDataTests" />
         <item itemvalue="Gradle.HW_12 [allureServe]" />
         <item itemvalue="Gradle.HW_12 [simple_tests]" />
         <item itemvalue="Gradle.disabledTests" />
@@ -344,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675687483707</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix config">
+      <created>1675688667676</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675688667676</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

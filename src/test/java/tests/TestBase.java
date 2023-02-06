@@ -17,16 +17,23 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
-    protected static WebDriverProvider webDriverProvider;
-    protected static WebDriverConfig webDriverConfig;
+    private static WebDriverConfig config;
+    private static WebDriverProvider configuration;
     @BeforeAll
-    public static void beforeAll() {
-        System.setProperty("env", "local");
-        webDriverConfig = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
+    static void setUp() {
+
+        config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
+        configuration = new WebDriverProvider();
+        configuration.WebDriverConfig(config);
+
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+        Configuration.browserCapabilities = capabilities;
     }
     @BeforeEach
     public void beforeEach() {
-        open(webDriverConfig.getBaseUrl());
+        open(config.getBaseUrl());
         SelenideLogger.addListener("allure", new AllureSelenide());
     }
 

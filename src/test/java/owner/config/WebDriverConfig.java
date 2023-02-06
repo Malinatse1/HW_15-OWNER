@@ -3,15 +3,13 @@ package owner.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-        "classpath:${env}.properties",
-        "file:~/${env}.properties",
-        "file:./${env}.properties"
+        "classpath:${env}.properties"
 })
 public interface WebDriverConfig extends Config {
 
     @Key("BaseUrl")
     @DefaultValue("https://demoqa.com")
-    String getBaseUrl();
+     String getBaseUrl();
 
     @Key("browser")
     @DefaultValue("CHROME")

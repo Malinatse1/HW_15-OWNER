@@ -5,6 +5,7 @@ import org.junit.jupiter.api.*;
 
 public class RegistrationWithTestDataTests extends TestBase {
 
+
     @Test
     void fillFormTest() {
         String userName = "Nataly",
