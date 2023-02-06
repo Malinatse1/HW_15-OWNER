@@ -26,14 +26,17 @@ repositories {
 }
 
 dependencies {
-    testImplementation (
-            "com.github.javafaker:javafaker:1.0.2",
-            'com.codeborne:selenide:6.9.0',
-            'io.qameta.allure:allure-selenide:2.19.0',
-            "org.junit.jupiter:junit-jupiter:5.9.1",
-            'org.slf4j:slf4j-simple:1.7.32',
-            "io.github.bonigarcia:webdrivermanager:5.3.1"
+    testImplementation(
+            'com.github.javafaker:javafaker:1.0.2',
+            'org.junit.jupiter:junit-jupiter:5.9.1',
+            'com.codeborne:selenide:6.11.0',
+            'org.slf4j:slf4j-simple:2.0.6',
+            'io.qameta.allure:allure-selenide:2.20.1',
+            'org.aeonbits.owner:owner:1.0.4',
+            'io.github.bonigarcia:webdrivermanager:5.2.1',
+            'org.seleniumhq.selenium:selenium-java:3.141.59'
     )
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.8.1')
 }
 
 tasks.withType(Test) {
@@ -48,33 +51,6 @@ tasks.withType(Test) {
     }
 }
 
-task smoke_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags("smoke")
-    }
-}
-task one_property_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("one_property")
-    }
-}
-task hello_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("hello")
-    }
-}
-
-task regress_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("regress")
-    }
-}
-
-task simple_tests(type: Test) {
-    useJUnitPlatform {
-        includeTags("simple")
-    }
-}
 
 help {
     doFirst {
