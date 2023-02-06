@@ -1,4 +1,4 @@
-package tests;
+package tests.properties;
 
 import org.junit.jupiter.api.*;
 

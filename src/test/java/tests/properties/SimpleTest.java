@@ -1,4 +1,4 @@
-package tests;
+package tests.properties;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-public class SimpleTest extends TestBase  {
+public class SimpleTest extends TestBase {
     @Test
     void successfulRegistrationTest() {
         step("Open registrations form", () -> {

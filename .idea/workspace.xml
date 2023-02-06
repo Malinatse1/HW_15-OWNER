@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bde48782-8ca9-4abb-b323-a027f6922415" name="Changes" comment="delete tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bde48782-8ca9-4abb-b323-a027f6922415" name="Changes" comment="fix config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,7 +302,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675678743070</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix config">
+      <created>1675685799946</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675685799946</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix config">
+      <created>1675685893663</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675685893663</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +334,8 @@
     <MESSAGE value="Add new code" />
     <MESSAGE value="Build add" />
     <MESSAGE value="delete tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete tests" />
+    <MESSAGE value="fix config" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
