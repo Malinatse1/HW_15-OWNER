@@ -21,9 +21,8 @@ public class TestBase {
     protected static WebDriverConfig webDriverConfig;
     @BeforeAll
     public static void beforeAll() {
+        System.setProperty("env", "local");
         webDriverConfig = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
-        webDriverProvider  = new WebDriverProvider();
-        webDriverProvider.setupDriverConfig();
     }
     @BeforeEach
     public void beforeEach() {

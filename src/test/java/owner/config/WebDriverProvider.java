@@ -21,4 +21,10 @@ public class WebDriverProvider {
             Configuration.browserCapabilities = capabilities;
         }
     }
+    public String getVideoUrl(){
+        return config.getVideoUrl();
+    }
+    public String getVideoFormat(){
+        return config.getVideoFormat();
+    }
 }
