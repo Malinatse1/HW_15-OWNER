@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bde48782-8ca9-4abb-b323-a027f6922415" name="Changes" comment="Build add">
-      <change afterPath="$PROJECT_DIR$/src/test/java/owner/config/Browser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/owner/config/WebDriverConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/owner/config/WebDriverProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationWithTestDataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationWithTestDataTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/allureTest/disabledTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/allureTest/negativeTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/allureTest/positiveTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <recent name="properties" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationWithTestDataTests.fillFormTest">
+  <component name="RunManager" selected="Gradle.RegistrationWithTestDataTests">
     <configuration name="HW_12 [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -216,8 +213,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationWithTestDataTests.fillFormTest" />
         <item itemvalue="Gradle.RegistrationWithTestDataTests" />
+        <item itemvalue="Gradle.RegistrationWithTestDataTests.fillFormTest" />
         <item itemvalue="Gradle.HW_12 [allureServe]" />
         <item itemvalue="Gradle.HW_12 [simple_tests]" />
         <item itemvalue="Gradle.disabledTests" />
@@ -296,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673607985812</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Build add">
+      <created>1675678375248</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675678375248</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
