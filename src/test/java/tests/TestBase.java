@@ -23,8 +23,8 @@ public class TestBase {
     static void setUp() {
 
         config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
-        configuration = new WebDriverProvider();
-        configuration.WebDriverConfig(config);
+        configuration = new WebDriverProvider(config);
+        configuration.webDriverConfig(config);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);

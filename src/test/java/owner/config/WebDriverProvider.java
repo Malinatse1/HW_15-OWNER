@@ -1,12 +1,17 @@
 package owner.config;
 
 import com.codeborne.selenide.Configuration;
-import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 public class WebDriverProvider {
-    public void WebDriverConfig(WebDriverConfig config){
+    private final WebDriverConfig webDriverConfig;
+
+    public WebDriverProvider(WebDriverConfig webDriverConfig) {
+        this.webDriverConfig = webDriverConfig;
+    }
+
+    public void webDriverConfig(WebDriverConfig config){
         Configuration.baseUrl = config.getBaseUrl();
         Configuration.browser = config.getBrowserName();
         Configuration.browserVersion = config.getBrowserVersion();
