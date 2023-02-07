@@ -7,7 +7,7 @@ import org.aeonbits.owner.Config;
 })
 public interface WebDriverConfig extends Config {
 
-    @Key("BaseUrl")
+    @Key("baseUrl")
     @DefaultValue("https://demoqa.com")
      String getBaseUrl();
 
